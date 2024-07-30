@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webconstruction"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Pulichkin <a.pulichkin@ntechlab.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.7"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.3.2"
+pytest-django = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
